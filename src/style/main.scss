@@ -1,0 +1,98 @@
+html {
+  color: white;
+  background-color: #1d6bff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  width: 163px;
+  border-bottom: 1px solid white;
+  font-size: 1.5em;
+  margin-bottom: 42px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  transition: 0.2s ease-in-out;
+  width: 30px;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: #89ddff;
+  margin: 20px;
+}
+
+.memeform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meme {
+  border: 1px solid #dbeff7;
+  border-radius: 10px;
+  background-color: #0c2c52;
+  width: 300px;
+  height: 400px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 18px 20px 41px 0px rgba(0, 0, 0, 0.75);
+}
+
+.meme-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.meme-img {
+  height: auto;
+  width: 250px;
+}
+
+.star {
+  height: 30px;
+  width: auto;
+}
+
+.caption-input::placeholder {
+  color: white;
+}
+
+.caption-input {
+  background-color: #607d8b;
+  border: none;
+  color: white;
+  text-align: center;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 35px;
+}
+
+.favorite-checkbox {
+  margin: 10px 10px 42px 68px;
+}
